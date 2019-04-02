@@ -136,6 +136,10 @@ html, body, #viewport {
     background: linear-gradient(#FFF, #EEE);
 }
 
+input[type="submit"]::-moz-focus-inner
+{   
+    border : 0px;
+} 
 #search-btn input:focus {
     outline:none;
     border: 1px solid #48E;
@@ -195,3 +199,5 @@ html, body, #viewport {
 #right-footer {
     padding-right: 20px;
 }
+
+
