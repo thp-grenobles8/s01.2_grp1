@@ -97,12 +97,17 @@ html, body, #viewport {
     box-shadow: 2px 2px 4px #CCC;
 }
 
+#search-border:focus-within {
+    box-shadow: 2px 2px 2px 2px #CCC;
+}
+
 #search-bar
 {
     background: transparent;
     border: none;
     height: 34px;
     width: 92%;
+    font-size: 16px;
 }
 
 #search-btn {
@@ -110,7 +115,7 @@ html, body, #viewport {
     justify-content: center;
     }
 #search-btn input {
-    font: 16px Arial, sans-serif;
+   
     margin: 5px;
     border-radius: 5px;
     background: #F4F4F4;
@@ -135,28 +140,32 @@ html, body, #viewport {
 
 .footer {
     display: flex;
-    background:#f2f201;
     flex-direction: column;
     color: rgb(34, 34, 34);
 }
+.footer {
+    background-color:#f2f2f2;
+}
+#top-footer  {
+    color: rgba(0, 0, 0, .54);
+    font-size: 14px;
+}
+#top-footer, #bot-footer{
+    border-top: 1px solid #e4e4e4;
+}
 
 #top-footer{
-    /* background-color: #1FF; */
-    background:#f2f201;
     display: flex;
     padding-left: 27px;
-    /* margin-left: 30px; */
     line-height: 40px;
 }
 
 #top-footer div {
     display: flex;
     font-size: 15px;
-    /* margin-left: 15px; */
 }
 
 #bot-footer {
-    background:#f01201;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -165,6 +174,14 @@ html, body, #viewport {
 
 #bot-footer a {
     padding-left: 27px;
+}
+
+#bot-footer a {
+    color: #5f6368;
+    text-decoration: none;
+}
+#bot-footer a:hover {
+    text-decoration: underline;
 }
 
 #right-footer {
