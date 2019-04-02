@@ -66,7 +66,7 @@ html, body, #viewport {
 }
 
 #top-center {
-    
+
     display: flex;
 }
 
@@ -109,18 +109,21 @@ html, body, #viewport {
     width: 92%;
     font-size: 16px;
 }
+#search-bar:focus {
+    outline: 0;
+}
 
 #search-btn {
     display: flex;
     justify-content: center;
     }
 #search-btn input {
-   
+
     margin: 5px;
     border-radius: 5px;
     background: #F4F4F4;
     border: none;
-    font-color: #5F6775;
+    font-color: #777;
     display: inline-block;
     padding: 10px 15px 10px 15px;
     cursor: pointer;
@@ -131,6 +134,11 @@ html, body, #viewport {
     box-shadow: 0 1px 2px #AAA;
     border: 1px solid #AAA;
     background: linear-gradient(#FFF, #EEE);
+}
+
+#search-btn input:focus {
+    outline:none;
+    border: 1px solid #48E;
 }
 
 #mic-div img {
