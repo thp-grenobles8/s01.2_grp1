@@ -7,6 +7,11 @@ html, body, #viewport {
     font-size: small;
 }
 
+input[type="text"]
+{
+    background: transparent;
+    border: none;
+}
 /*div {
     outline: 1px solid red;
 }*/
@@ -96,4 +101,3 @@ html, body, #viewport {
 #search-btn input {
     margin: 5px;
 }
-
