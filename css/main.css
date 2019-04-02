@@ -133,6 +133,11 @@ html, body, #viewport {
     background: linear-gradient(#FFF, #EEE);
 }
 
+input[type="submit"]::-moz-focus-inner
+{   
+    border : 0px;
+} 
+
 #mic-div img {
     height: 2em;
     cursor: pointer;
@@ -187,3 +192,5 @@ html, body, #viewport {
 #right-footer {
     padding-right: 20px;
 }
+
+
