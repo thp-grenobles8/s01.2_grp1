@@ -7,18 +7,14 @@ html, body, #viewport {
     font-size: small;
 }
 
-div {
+/*div {
     outline: 1px solid red;
-}
+}*/
 
 #viewport {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-#viewport>div {
-  outline: 5px solid green;
 }
 
 #header {
@@ -29,7 +25,7 @@ div {
 #top-tools {
     color: red;
     padding: 5px;
-    padding-top: 15px;
+    padding-top: 7px;
     display:flex;
     align-items: center;
 }
@@ -69,17 +65,35 @@ div {
     
     display: flex;
 }
+
 #flex-center {
     margin: auto;
 }
+
 #top-center img {
     margin: auto;
 }
-#search-div {
-    border: 1px solid black;
-    border-radius:2px;
+
+#search-border {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 23px;
     height: 46px;
-    width: 1000px;
+    width: 500px;
     word-wrap: break-word;
+    border: 1px solid #CCC;
+}
+
+#search-border:hover {
+    box-shadow: 2px 2px 4px #CCC;
+}
+
+
+#search-btn {
+    display: flex;
+    justify-content: center;
     }
+#search-btn input {
+    margin: 5px;
+}
 
