@@ -7,16 +7,15 @@ html, body, #viewport {
     font-size: small;
 }
 
-div {
+/*div {
     outline: 1px solid red;
-}
+}*/
 
 #viewport {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
 
 #header {
     display: flex;
@@ -26,7 +25,9 @@ div {
 #top-tools {
     color: red;
     padding: 5px;
-    padding-top: 20px;
+    padding-top: 7px;
+    display:flex;
+    align-items: center;
 }
 #top-tools a {
     text-decoration: none;
@@ -44,7 +45,7 @@ div {
 padding-top: 109px;
 }
 #login {
-    background: linear-gradient(#4387fd,#4683ea);
+    background: linear-gradient(#49F,#58E);
     color: #FFF !important;
     border-radius: 2px;
     display: inline-block;
