@@ -3,6 +3,8 @@ html, body, #viewport {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: small;
 }
 
 div {
@@ -14,8 +16,32 @@ div {
     flex-direction: column;
 }
 
+
 #header {
     display: flex;
-    align-items: flex-start;
+    justify-content: flex-end;
     width: 100%;
+}
+#top-tools {
+    color: red;
+    padding: 5px;
+    padding-top: 20px;
+}
+#top-tools a {
+    text-decoration: none;
+    color: #444;
+    margin: 10px;
+}
+#login {
+    background: linear-gradient(#4387fd,#4683ea);
+    color: #FFF !important;
+    border-radius: 2px;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+#login:hover {
+    box-shadow: 0 1px 2px #48F;
 }
