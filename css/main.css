@@ -16,6 +16,7 @@ html, body, #viewport {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background: #49F;
 }
 
 #header {
@@ -104,7 +105,7 @@ html, body, #viewport {
 
 
 
-#footer {
+.footer {
     display: flex;
     background:#f2f201;
     flex-direction: column;
@@ -112,29 +113,29 @@ html, body, #viewport {
     /* padding-left: 27px; */
     /* justify-content: space-between; */
 }
-#footer #top-footer{
+#top-footer{
     /* background-color: #1FF; */
     background:#f2f201;
     display: flex;
     padding-left: 27px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     line-height: 40px;
 }
-#footer #top-footer div {
+#top-footer div {
     display: flex;
     font-size: 15px;
     /* margin-left: 15px; */
 }
-#footer #bot-footer {
+#bot-footer {
     background:#f01201;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 35px;
 }
-#footer #bot-footer a {
+#bot-footer a {
     padding-left: 27px;
 }
-#footer #bot-footer #right-footer {
+#right-footer {
     padding-right: 20px;
 }
