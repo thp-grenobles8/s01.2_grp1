@@ -16,7 +16,6 @@ html, body, #viewport {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: #49F;
 }
 
 #header {
@@ -107,27 +106,28 @@ html, body, #viewport {
 
 .footer {
     display: flex;
-    background:#f2f201;
     flex-direction: column;
-    color: rgb(34, 34, 34);
-    /* padding-left: 27px; */
-    /* justify-content: space-between; */
+}
+.footer {
+    background-color:#f2f2f2;
+}
+#top-footer  {
+    color: rgba(0, 0, 0, .54);
+    font-size: 14px;
+}
+#top-footer, #bot-footer{
+    border-top: 1px solid #e4e4e4;
 }
 #top-footer{
-    /* background-color: #1FF; */
-    background:#f2f201;
     display: flex;
     padding-left: 27px;
-    /* margin-left: 30px; */
     line-height: 40px;
 }
 #top-footer div {
     display: flex;
     font-size: 15px;
-    /* margin-left: 15px; */
 }
 #bot-footer {
-    background:#f01201;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -135,6 +135,13 @@ html, body, #viewport {
 }
 #bot-footer a {
     padding-left: 27px;
+}
+#bot-footer a {
+    color: #5f6368;
+    text-decoration: none;
+}
+#bot-footer a:hover {
+    text-decoration: underline;
 }
 #right-footer {
     padding-right: 20px;
