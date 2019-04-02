@@ -17,6 +17,9 @@ div {
     justify-content: space-between;
 }
 
+#viewport>div {
+  outline: 5px solid green;
+}
 
 #header {
     display: flex;
@@ -26,7 +29,9 @@ div {
 #top-tools {
     color: red;
     padding: 5px;
-    padding-top: 20px;
+    padding-top: 15px;
+    display:flex;
+    align-items: center;
 }
 #top-tools a {
     text-decoration: none;
@@ -37,7 +42,7 @@ div {
     text-decoration: underline;
 }
 #login {
-    background: linear-gradient(#4387fd,#4683ea);
+    background: linear-gradient(#49F,#58E);
     color: #FFF !important;
     border-radius: 2px;
     display: inline-block;
@@ -51,6 +56,15 @@ div {
 #login:hover {
     box-shadow: 0 1px 2px #48F;
 }
+
+#apps_icon img {
+    height: 2em;
+    opacity: 0.6;
+}
+#apps_icon img:hover {
+    opacity: 1;
+}
+
 #top-center {
     
     display: flex;
@@ -68,3 +82,4 @@ div {
     width: 1000px;
     word-wrap: break-word;
     }
+
