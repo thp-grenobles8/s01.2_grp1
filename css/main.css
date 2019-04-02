@@ -8,9 +8,7 @@ html, body, #viewport {
     font-size: small;
 }
 
-/*div {
-    outline: 1px solid red;
-}*/
+
 
 #viewport {
     display: flex;
@@ -23,6 +21,7 @@ html, body, #viewport {
     justify-content: flex-end;
     width: 100%;
 }
+
 #top-tools {
     color: red;
     padding: 5px;
@@ -30,14 +29,17 @@ html, body, #viewport {
     display:flex;
     align-items: center;
 }
+
 #top-tools a {
     text-decoration: none;
     color: #444;
     margin: 10px;
 }
+
 #top-tools a:hover {
     text-decoration: underline;
 }
+
 #login {
     background: linear-gradient(#49F,#58E);
     color: #FFF !important;
@@ -50,6 +52,7 @@ html, body, #viewport {
     text-decoration: none !important;
     cursor: default;
 }
+
 #login:hover {
     box-shadow: 0 1px 2px #48F;
 }
@@ -76,37 +79,69 @@ html, body, #viewport {
 }
 
 #search-border {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
     border-radius: 23px;
     height: 46px;
     width: 500px;
     word-wrap: break-word;
     border: 1px solid #CCC;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 #search-border:hover {
     box-shadow: 2px 2px 4px #CCC;
 }
 
+#search-border:focus-within {
+    box-shadow: 2px 2px 2px 2px #CCC;
+}
+
+#search-bar
+{
+    background: transparent;
+    border: none;
+    height: 34px;
+    width: 92%;
+    font-size: 16px;
+}
 
 #search-btn {
     display: flex;
     justify-content: center;
     }
 #search-btn input {
+   
     margin: 5px;
+    border-radius: 5px;
+    background: #F4F4F4;
+    border: none;
+    font-color: #5F6775;
+    display: inline-block;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
 }
 
+#search-btn input:hover {
+    color: #000;
+    box-shadow: 0 1px 2px #AAA;
+    border: 1px solid #AAA;
+    background: linear-gradient(#FFF, #EEE);
+}
 
-
-
-
-
+#mic-div img {
+    height: 2em;
+    cursor: pointer;
+}
 
 .footer {
     display: flex;
     flex-direction: column;
+    color: rgb(34, 34, 34);
 }
 .footer {
     background-color:#f2f2f2;
@@ -118,24 +153,29 @@ html, body, #viewport {
 #top-footer, #bot-footer{
     border-top: 1px solid #e4e4e4;
 }
+
 #top-footer{
     display: flex;
     padding-left: 27px;
     line-height: 40px;
 }
+
 #top-footer div {
     display: flex;
     font-size: 15px;
 }
+
 #bot-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 35px;
 }
+
 #bot-footer a {
     padding-left: 27px;
 }
+
 #bot-footer a {
     color: #5f6368;
     text-decoration: none;
@@ -143,6 +183,7 @@ html, body, #viewport {
 #bot-footer a:hover {
     text-decoration: underline;
 }
+
 #right-footer {
     padding-right: 20px;
 }
